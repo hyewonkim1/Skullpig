@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skullpig_site_detailpage</title>
+    <script src="js/jquery-3.6.1.min.js"></script>
     <script src="./js/detail.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
     <link rel="stylesheet" href="./css/detail.css">
@@ -188,7 +189,7 @@
         </div><!--lnb_box-->
       </header>
 
-      <ul class="bottom_name">
+      <!-- <ul class="bottom_name">
         <li class="woman">우먼
           <ul class="woman_list">
             <li>우먼</li>
@@ -214,7 +215,7 @@
             <li>스커트/드레스</li>
         </ul>
         </li>
-      </ul>
+      </ul> -->
 
       <section class="product_box">
 
@@ -307,22 +308,64 @@
             <div class="modal_wrap">
             <div class="modal_close"><a href="#">close</a></div>
             <div>
-              <h3>추가혜택 안내</h3>
+              <h3 class="tab_name">추가혜택 안내</h3>
+              <ul class="tab">
+                <li class="on">무이자혜택</li>
+                <li>회원혜택 안내</li>
+              </ul>
 
-
+              <div class="sheet">
+                <div class="sheet01 on_sheet">
+                  <h5>무이자 혜택</h5>
+                  <div class="bene_card">
+                    
+                  </div>
+                </div>
+                <div class="sheet02">sheet02</div>
               </div>
 
 
 
+              </div><!--모달창 내용-->
 
 
-            </div><!--모달창 내용-->
+
+
+
+            </div>
           </div>
           </div>
 
         </div><!--text_box-->
+
         
       </section>
+
+
+
+      <p class="bar_name">회원 혜택안내</p>
+      <div class="bar_box">
+        <div class="bar01">
+          <div class="bar01_01">
+          <img src="./images/bar01_01.JPG" alt="">
+          </div>
+          <div class="bar01_02">
+            <img src="./images/bar01_02.JPG" alt="">
+          </div>
+          <div class="bar01_03">
+            <img src="./images/bar01_03.JPG" alt="">
+          </div>
+          <div class="bar01_04">
+            <img src="./images/bar01_04.JPG" alt="">
+          </div>
+        </div>
+        <div class="bar02">
+          <img src="./images/bar_img01.jpg" alt="">
+        </div>
+        <div class="bar03">
+          <img src="./images/bar_img02.jpg" alt="">
+        </div>
+      </div>
       <p class="with_name">같이 코디한 아이템</p>
 
       <div class="with_box">
@@ -416,8 +459,8 @@
 
     <section class="review">
       <div class="review_left">
-        <p>4.9점</p>
-        <p>리뷰작성하기</p>
+        <p>★4.9점</p>
+        <p><button>리뷰작성하기</button></p>
       </div>
       <div class="review_right">
         <div class="bar01">

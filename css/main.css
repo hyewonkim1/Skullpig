@@ -4874,6 +4874,10 @@ img {display: block;}
 
 
 /*--------------- top ----------------*/
+#chk_more {display: none;}
+#chk_more:checked ~ .more_box {display: block;}
+#chk_more ~ .more_box {display: none;}
+
 
 .top {
   width: 50px;
@@ -4881,8 +4885,16 @@ img {display: block;}
   text-align: center;
   position: fixed;
   bottom: 20px;
-  right: 200px;
+  right: 50px;
   z-index: 100;
+}
+.top .more {
+  display: block;
+  width: 50px;
+  height: 50px;
+  color: white;
+  line-height: 50px;
+
 }
 
 .top .top_icon {
@@ -4892,6 +4904,7 @@ img {display: block;}
   width: 50px;
   height: 50px;
 }
+
 .top .time {
   display: block;
   color: white;

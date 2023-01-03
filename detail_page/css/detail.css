@@ -81,7 +81,6 @@ img {display: block;}
     margin: 0 auto;
     font-weight: bold;
     font-size: 18px;
-    
   }
 
   .lnb_box .lnb label {
@@ -98,6 +97,7 @@ img {display: block;}
     line-height: 35px;
     background-color: white;
     float: left;
+    margin-bottom: 50px;
   }
   .lnb_box .lnb .lnb01 ul li {display: none;}
   .lnb_box .lnb .lnb01 li:hover li {display: block;}
@@ -143,8 +143,6 @@ img {display: block;}
     transition-duration: 0.4s;
     overflow: hidden;
   }
-
-
   .lnb_txt .txt_top {
     width: 1276px;
     height: 300px;
@@ -242,31 +240,36 @@ img {display: block;}
     margin-top: 60px;
   }
 
-  .bottom_name {
+  /* .bottom_name {
     width: 1276px;
     height: 50px;
     margin: 0 auto;
     text-align: center;
     position: relative;
     z-index: 1;
+    font-size: 18px;
+    font-family: 'Gothic A1', sans-serif;
   }
   .bottom_name>li {
     width: 120px;
     height: 30px;
-    margin-top: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     float: left;
 }
   .bottom_name>li li {
     width: 120px;
-    background-color: #eee;
+    height: 30px;
+    background-color: white;
   }
+
 
 .bottom_name ul li {display: none;}
 .bottom_name li:hover li {display: block;}
 .bottom_name .woman li {
     width: 120px;
-    height: 20px;
-}
+    height: 30px;
+} */
 
 /*--------------- product_box ----------------*/
 .product_box {
@@ -291,7 +294,7 @@ img {display: block;}
 }
 .product_box .product .pro_top {
     width: 628px;
-    height: 630px;
+    height: 690px;
 }
 .product_box .product .pro_top img {
   width: 100%;
@@ -383,7 +386,11 @@ img {display: block;}
 .text03 .txt03_01 {
   width: 196px;
 }
-.text03 .txt03_02 p {float: left;}
+.text03 .txt03_02>p {float: left;}
+.text03 .txt03_02>p:last-child {
+  font-size: 28px;
+  line-height: 28px;
+}
 .text04 .txt04_01 {
   width: 196px;
 }
@@ -416,7 +423,7 @@ img {display: block;}
   line-height: 50px;
   margin-right: 20px;
   margin-top: 20px;
-
+  cursor: pointer;
 }
 .text08 .txt08_02 {
   width: 304px;
@@ -424,9 +431,11 @@ img {display: block;}
   text-align: center;
   line-height: 50px;
   border: 1px solid #999;
-  background-color: #eee;
+  background-color: #131140;
+  color: white;
   box-sizing: border-box;
   margin-top: 20px;
+  cursor: pointer;
 
 }
 .text09 {
@@ -453,13 +462,91 @@ img {display: block;}
 
 /*--------------- 카드보기 ----------------*/
 
+.tab_name {
+  height: 50px;
+  line-height: 50px;
+}
+
+.tab {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+}
+.tab li {
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  font-size: 13px;
+}
+.tab li.on {
+  font-weight: bold;
+}
+.sheet div {
+  width: 500px;
+  height: 400px;
+  background-color: beige;
+  display: none;
+}
+.sheet div.on_sheet {
+  display: block;
+}
+
+
+/*--------------- 회원 혜택안내 ----------------*/
+
+.bar_name {
+  width: 1276px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 30px auto;
+}
+.bar_box {
+  width: 1276px;
+  margin: 0 auto;
+}
+.bar_box .bar01 {
+  width: 1276px;
+  height: 200px;
+  display: flex;
+  margin-bottom: 30px;
+}
+.bar_box .bar01>div {
+  height: 200px;
+  margin-right: 50px;
+}
+.bar_box .bar01>div:first-child {
+  margin-left: 10px;
+} 
+.bar_box .bar01>div:last-child {
+  margin-right: 0;
+}
+.bar_box .bar01>div>img {
+  width: 100%;
+  height: 100%;
+}
+.bar02 img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.bar03 img {
+  width: 100%;
+}
+
 
 /*--------------- with_box ----------------*/
 .with_name {
   width: 1276px;
   height: 50px;
   margin: 0 auto;
-
+  margin-top: 30px;
+  margin-bottom: 20px;
   line-height: 50px;
   font-weight: bold;
   font-size: 20px;
@@ -467,12 +554,14 @@ img {display: block;}
 .with_box {
   width: 1276px;
   height: 560px;
+
   margin: 0 auto;
   overflow: hidden;
 }
 .with_box .with {
   float: left;
   margin-right: 20px;
+  border-bottom: 1px solid #eee;
 }
 .with:nth-child(4) {margin: 0;}
 
@@ -693,6 +782,7 @@ img {display: block;}
   height: 55px;
   margin: 0 auto;
   overflow: hidden;
+  margin-top: 30px;
 }
 .box p {
   width: 304px;
@@ -700,9 +790,12 @@ img {display: block;}
   line-height: 50px;
   float: left;
   border: 1px solid #666;
-  background-color: #eee;
+  background-color: #131140;
   box-sizing: border-box;
   margin-right: 20px;
+}
+.box p a {
+  color: white;
 }
 .box p:last-child {margin-right: 0;}
 
@@ -713,26 +806,32 @@ img {display: block;}
   width: 1276px;
   height: 200px;
   margin: 0 auto;
-  background-color: #eee;
+  background-color: white;
   overflow: hidden;
   
 }
 .review>div {float: left;}
 .review .review_left p:nth-child(1) {
   width: 150px;
-  height: 30px;
+  height: 50px;
+  line-height: 50px;
   text-align: center;
   margin-top: 50px;
-  border: 1px solid black;
+  font-size: 32px;
+  font-weight: bold;
   box-sizing: border-box;
 }
 .review .review_left p:nth-child(2) {
   width: 150px;
   height: 40px;
   text-align: center;
-  border: 1px solid black;
   box-sizing: border-box;
   line-height: 40px;
+}
+.review .review_left p:nth-child(2) button {
+  width: 100px;
+  height: 40px;
+  margin-top: 5px;
 }
 .review .review_left {
   width: 235px;
@@ -763,6 +862,7 @@ img {display: block;}
 .review_right p:nth-child(2) {
   border-radius: 20px;
 }
+
 .bar01 p:nth-child(2) {
   width: 500px;
   height: 20px;

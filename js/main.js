@@ -1,7 +1,7 @@
 
     $(function(){
       
-       $('.btn_top').click(function(e){
+       $('.top_icon').click(function(e){
         e.preventDefault();
         /*$('html, body').stop().animate({
           scrollTop:0 //화면의 제일 위 좌표.
