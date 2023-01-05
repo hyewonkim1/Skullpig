@@ -48,4 +48,23 @@ $(function(){
 })
 
 
+$(function(){
+      
+  $('.top_icon').click(function(e){
+   e.preventDefault();
+   /*$('html, body').stop().animate({
+     scrollTop:0 //화면의 제일 위 좌표.
+   },1000);*/
 
+   //1.좌표로 이용
+   // $(window).scrollTo({top:0,left:0}, 500);
+
+   //2.플러그인
+   //hash 이용.
+   $(window).scrollTo(this.hash || 0, 500);
+
+
+ })//bnt_top click_event
+
+
+})

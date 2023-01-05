@@ -6,13 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Skullpig_site</title>
   <script src="./js/main.js" defer></script>
-  <!-- Swiper JS -->
   <script src="./js/jquery-3.6.1.min.js"></script>
   <script src="./js/jquery.scrollTo.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
   <link rel="stylesheet" href="./css/main.css">
-   <!-- Link Swiper's CSS -->
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
@@ -25,7 +24,7 @@
 </head>
 <body>
 
-  <div class="popup_box">
+  <!-- <div class="popup_box">
     <input type="checkbox" id="chk_popup">
     <div class="popup">
       <img src="./images/popup.jpeg" alt="팝업 이미지">
@@ -33,7 +32,15 @@
         <label for="chk_popup" class="close">close</label>
       </div>
     </div>
+  </div> -->
+
+  <div class="popup_wrap">
+    <div class="popup_close"><a href="#" id="popup_btn"></a></div>
+    <div class="popup_img">
+      <img src="./images/popup.jpeg" alt="팝업이미지">
+    </div>
   </div>
+
 
   <header class="header" id="header">
     <nav class="gnb_box">
@@ -55,14 +62,14 @@
       <ul class="gnb02">
         <li><a href="#" class="openPopup">로그인</a></li>
         <div class="login_popup">
-          <div class="login_close">close</div>
+          <div class="login_close">닫기</div>
           <div class="wrap">
             <div class="login">
               <div class="idpw">
                 <div class="id">                
                   <span>아이디&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><input type="text" id="user_id" maxlength="20"></div>
                 <div class="pw">                
-                  <span>비밀번호&nbsp;&nbsp;</span><input type="text" id="user_pw" maxlength="20"></div>
+                  <span>비밀번호&nbsp;&nbsp;</span><input type="password" id="user_pw" maxlength="20"></div>
 
                 <div class="search">
                   <div class="search01">비밀번호 찾기</div>
@@ -77,7 +84,7 @@
             </div><!--login-->
           </div><!--wrap-->
         </div><!--login_popup-->
-        <li><a href="#">회원가입</a></li>
+        <li><a onclick="openWindow()">회원가입</a></li>
         <li><a href="#">고객센터</a></li>
       </ul>
     </div><!--gnb-->

@@ -329,7 +329,7 @@ img {display: block;}
   top:50%;
   left: 50%;
   margin: -250px 0 0 -250px;
-  background:#eee;
+  background:white;
   z-index: 2000;
 }
 .black_bg{
@@ -459,12 +459,23 @@ img {display: block;}
   color: #666;
 }
 .text10 .txt10_02 a {margin-left: 10px;}
+.text10 button {
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  border-bottom: 2px solid black;
+}
+.text10 button:hover {
+  font-weight: bold;
+}
+
 
 /*--------------- 카드보기 ----------------*/
 
 .tab_name {
   height: 50px;
   line-height: 50px;
+  margin-left: 30px;
 }
 
 .tab {
@@ -484,18 +495,48 @@ img {display: block;}
   cursor: pointer;
   font-size: 13px;
 }
+
 .tab li.on {
   font-weight: bold;
 }
 .sheet div {
   width: 500px;
-  height: 400px;
-  background-color: beige;
+  height: 440px;
   display: none;
 }
 .sheet div.on_sheet {
   display: block;
 }
+
+.sheet .sheet01 h5 {
+  width: 430px;
+  height: 30px;
+  margin: 0px auto;
+  border-bottom: 2px solid black;
+}
+.sheet .sheet01 img {
+  width: 430px;
+  height: 410px;
+  margin: 0 auto;
+}
+
+.sheet .sheet02 h5 {
+  width: 430px;
+  height: 30px;
+  margin: 0px auto;
+  border-bottom: 2px solid black;
+}
+.sheet .sheet02 img {
+  width: 430px;
+  height: 260px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
 
 
 /*--------------- 회원 혜택안내 ----------------*/
@@ -538,6 +579,8 @@ img {display: block;}
 .bar03 img {
   width: 100%;
 }
+
+
 
 
 /*--------------- with_box ----------------*/
@@ -984,6 +1027,53 @@ img {display: block;}
 .delivery {
   width: 1276px;
   margin: 0 auto;
+}
+
+/*--------------- 탑버튼 ----------------*/
+#chk_more {display: none;}
+#chk_more:checked ~ .more_box {display: block;}
+#chk_more ~ .more_box {display: none;}
+
+
+.top {
+  width: 50px;
+  background-color: #131140;
+  text-align: center;
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+  z-index: 100;
+}
+.top .more {
+  display: block;
+  width: 50px;
+  height: 50px;
+  color: white;
+  line-height: 50px;
+
+}
+
+.top .top_icon {
+  display: block;
+  color: white;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+.top .time {
+  display: block;
+  color: white;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+}
+.top .bag {
+  display: block;
+  color: white;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 

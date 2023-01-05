@@ -795,7 +795,7 @@ img {display: block;}
   /*--------------- bottom_name03 ----------------*/
 #bt01, #bt02, #bt03, #bt04, #bt05, #bt06 {display: none;}
 
-/**#bt01:checked ~ .sheet .sheet01 {display: block;}
+#bt01:checked ~ .sheet .sheet01 {display: block;}
 #bt01:checked ~ .sheet .sheet02 {display: none;}
 #bt01:checked ~ .sheet .sheet03 {display: none;}
 #bt01:checked ~ .sheet .sheet04 {display: none;}
@@ -835,7 +835,7 @@ img {display: block;}
 #bt06:checked ~ .sheet .sheet03 {display: none;}
 #bt06:checked ~ .sheet .sheet04 {display: none;}
 #bt06:checked ~ .sheet .sheet05 {display: none;}
-#bt06:checked ~ .sheet .sheet06 {display: block;}**/
+#bt06:checked ~ .sheet .sheet06 {display: block;}
  
 
 
