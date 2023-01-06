@@ -832,7 +832,7 @@ img {display: block;}
   text-align: center;
   line-height: 50px;
   float: left;
-  border: 1px solid #666;
+  /* border: 1px solid #666; */
   background-color: #131140;
   box-sizing: border-box;
   margin-right: 20px;
@@ -877,7 +877,7 @@ img {display: block;}
   margin-top: 5px;
 }
 .review .review_left {
-  width: 235px;
+  width: 245px;
   height: 200px;
   margin-left: 70px;
   margin-right: 30px;
@@ -888,6 +888,7 @@ img {display: block;}
   width: 800px;
   height: 200px;
   margin: 0 auto;
+  margin-top: 15px;
   overflow: hidden;
 
 }
