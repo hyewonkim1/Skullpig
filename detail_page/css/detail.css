@@ -21,6 +21,7 @@ img {display: block;}
   width: 1276px;
   height: 25px;
   margin: 0 auto;
+  font-family:'Noto Sans KR', sans-serif ;
 
 }
 .header .gnb_box .gnb a {
@@ -128,7 +129,6 @@ img {display: block;}
     border-right: 1px solid #666;
     box-sizing: border-box;
     border-right-style: dashed;
- 
   }
 
 
@@ -366,6 +366,7 @@ img {display: block;}
   height: 900px;
   margin: 0 auto;
   font-size: 20px;
+  font-family:'Noto Sans KR', sans-serif ;
 }
 .text_box>div {
   width: 628px;
@@ -547,6 +548,7 @@ img {display: block;}
   font-size: 20px;
   font-weight: bold;
   margin: 30px auto;
+  font-family:'Noto Sans KR', sans-serif ;
 }
 .bar_box {
   width: 1276px;
@@ -593,11 +595,12 @@ img {display: block;}
   line-height: 50px;
   font-weight: bold;
   font-size: 20px;
+  font-family:'Noto Sans KR', sans-serif ;
 }
 .with_box {
   width: 1276px;
   height: 560px;
-
+  font-family:'Noto Sans KR', sans-serif ;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -826,6 +829,7 @@ img {display: block;}
   margin: 0 auto;
   overflow: hidden;
   margin-top: 30px;
+  font-family:'Noto Sans KR', sans-serif ;
 }
 .box p {
   width: 304px;
@@ -851,6 +855,7 @@ img {display: block;}
   margin: 0 auto;
   background-color: white;
   overflow: hidden;
+  font-family:'Noto Sans KR', sans-serif ;
   
 }
 .review>div {float: left;}
@@ -946,6 +951,7 @@ img {display: block;}
   border-top: 1px dashed #666;
   border-bottom: 1px dashed #666;
   box-sizing: border-box;
+  font-family:'Noto Sans KR', sans-serif ;
 }
 .re01 .re01_01 {
   overflow: hidden;}
@@ -984,6 +990,7 @@ img {display: block;}
   border-top: 1px dashed #666;
   border-bottom: 1px dashed #666;
   box-sizing: border-box;
+  font-family:'Noto Sans KR', sans-serif ;
 }
 
 .re02 .re02_01 {
