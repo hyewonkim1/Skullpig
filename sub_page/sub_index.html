@@ -44,8 +44,31 @@
       </ul>
 
       <ul class="gnb02">
-        <li><a href="#">로그인</a></li>
-        <li><a href="#">회원가입</a></li>
+        <li><a href="#" class="openPopup">로그인</a></li>
+        <div class="login_popup">
+          <div class="login_close">닫기</div>
+          <div class="wrap">
+            <div class="login">
+              <div class="idpw">
+                <div class="id">                
+                  <span>아이디&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><input type="text" id="user_id" maxlength="20"></div>
+                <div class="pw">                
+                  <span>비밀번호&nbsp;&nbsp;</span><input type="password" id="user_pw" maxlength="20"></div>
+
+                <div class="search">
+                  <div class="search01">비밀번호 찾기</div>
+                  <div class="search02">아이디 찾기</div>
+                </div><!--search-->
+              </div><!--idpw-->
+
+              <div class="button_box">
+                <button type="button"  class="button_login">로그인</button>
+                <button onclick="openWindow()" class="button_join">회원가입</button>
+              </div>
+            </div><!--login-->
+          </div><!--wrap-->
+        </div><!--login_popup-->
+        <li><a onclick="openWindow()">회원가입</a></li>
         <li><a href="#">고객센터</a></li>
       </ul>
     </div><!--gnb-->
@@ -203,11 +226,11 @@
       <li class="bt01">우먼
         <ul class="woman_menu">
           <li><a href="#">상의</a></li>
-          <li><a href="#">하의</a></li>
+          <li><a href="./sub_index.html">하의</a></li>
         </ul>
       </li>
       <li class="bt02"><i class="fa-solid fa-caret-right"></i></li>
-      <li class="bt03">하의</li>
+      <li class="bt03"><a href="./sub_index.html">하의</a></li>
     </ul><!--bottom_name02-->
 
 
@@ -724,19 +747,7 @@
       <a href="#header" class="top_icon"><i class="fa-solid fa-angle-up"></i></a>
     </aside>
     
-    <!-- <aside class="wing_box">
-    <input type="checkbox" id="chk_wing">
-    <div class="wing_banner">
-        <label for="chk_wing" class="btn_open"><i class="fa-solid fa-cart-shopping"></i></label>
-        <label for="chk_wing" class="btn_close"><i class="fa-solid fa-xmark"></i></label></label>
-        <div class="wing_text">
-         장바구니
-        </div>
-    </div>
-    </aside> -->
-
-
-
+   
 
 
     <footer class="footer_box">

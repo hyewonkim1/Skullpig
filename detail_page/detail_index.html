@@ -36,8 +36,31 @@
           </ul>
     
           <ul class="gnb02">
-            <li><a href="#">로그인</a></li>
-            <li><a href="#">회원가입</a></li>
+            <li><a href="#" class="openPopup">로그인</a></li>
+            <div class="login_popup">
+              <div class="login_close">닫기</div>
+              <div class="wrap">
+                <div class="login">
+                  <div class="idpw">
+                    <div class="id">                
+                      <span>아이디&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><input type="text" id="user_id" maxlength="20"></div>
+                    <div class="pw">                
+                      <span>비밀번호&nbsp;&nbsp;</span><input type="password" id="user_pw" maxlength="20"></div>
+    
+                    <div class="search">
+                      <div class="search01">비밀번호 찾기</div>
+                      <div class="search02">아이디 찾기</div>
+                    </div><!--search-->
+                  </div><!--idpw-->
+    
+                  <div class="button_box">
+                    <button type="button"  class="button_login">로그인</button>
+                    <button onclick="openWindow()" class="button_join">회원가입</button>
+                  </div>
+                </div><!--login-->
+              </div><!--wrap-->
+            </div><!--login_popup-->
+            <li><a onclick="openWindow()">회원가입</a></li>
             <li><a href="#">고객센터</a></li>
           </ul>
         </div><!--gnb-->

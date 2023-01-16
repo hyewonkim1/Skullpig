@@ -64,11 +64,11 @@
             });
     
     
-          });// 로그인 과정
+        });// 로그인 과정
               
-          $('#user_id').val('').focus();
-          $('#user_pw').val('');
-          // 기존에 있는 글자 clear하는 효과.
+        $('#user_id').val('').focus();
+        $('#user_pw').val('');
+        // 기존에 있는 글자 clear하는 효과.
       
     })
   
@@ -94,6 +94,7 @@
     
     // };
 
+    // 팝업창 
     $(function(){
       function offClick() {
         document.querySelector('.popup_wrap').style.display = 'none';

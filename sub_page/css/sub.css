@@ -35,8 +35,83 @@ img {display: block;}
 .header .gnb_box .gnb .gnb02 {
   float: right;
 }
-.header .gnb_box .gnb .gnb02 li {float: left;
- padding-right: 15px;}
+.header .gnb_box .gnb .gnb02 li {
+  cursor: pointer; 
+  float: left;
+  padding-right: 15px;
+ }
+
+/*-------------- 로그인 창  ---------------*/
+
+.login_popup {display: none;}
+.login_popup {
+  width: 500px;
+  height: 300px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin: -250px 0 0 -250px;
+  background-color: #fff;
+  z-index: 1200;
+}
+.backon {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #484545e2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.login_close {
+  position: absolute;
+  top: -25px;
+  right: 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login_popup {
+  cursor: pointer;
+}
+
+
+.idpw {
+  width: 500px;
+  height: 120px;
+  margin-top: 50px;
+  text-align: center;
+  padding-top: 20px;
+}
+.idpw span {
+  font-size: 20px;
+}
+.search {
+  width: 500px;
+  height: 30px;
+  display: flex;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.search01 {
+  margin-left: 180px;
+  margin-right: 15px;
+}
+
+.button_box {
+  margin-top: 30px;
+  text-align: center;
+}
+.button_box button {
+  width: 90px;
+  height: 40px;
+}
+.button_box button:hover {
+  background-color: #131140;
+  color: white;
+}
+.button_box button:first-child {margin-right: 20px;}
 
 
  .header .logo_box {
@@ -756,7 +831,7 @@ img {display: block;}
   }
   .bottom_name02 {
     width: 1276px;
-    height: 45px;
+    height: 80px;
     margin: 0 auto;
     font-size: 18px;
     line-height: 30px;
@@ -768,7 +843,6 @@ img {display: block;}
   }
   .bottom_name02 .bt01 {
     width: 50px;
-    height: 30px;
     font-family: 'Gothic A1', sans-serif;
   }
   .bottom_name02 .bt02 {
