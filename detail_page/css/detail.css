@@ -686,7 +686,7 @@ img {display: block;}
 }
 .with:nth-child(4) {margin: 0;}
 
-.with_box>div:hover {opacity: 0.3;}
+.with_box>div:hover img {opacity: 0.3;}
 
 .with_box .with01 .with01_img {
   width: 304px;

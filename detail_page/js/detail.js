@@ -127,6 +127,6 @@ $(function(){
 
 // 회원가입 창 
 function openWindow(){
-let newWin = window.open('join.html')
+let newWin = window.open('../join.html')
 }
 

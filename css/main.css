@@ -255,7 +255,12 @@ img {display: block;}
       background-color: white;
       float: left;
     }
-
+    /*----- subpage point -----*/
+    .lnb02 .point {
+      border: 3px solid black;
+      box-sizing: border-box;
+    }
+   
     .lnb01 {
       position: relative;
       z-index: 300;
@@ -576,10 +581,10 @@ img {display: block;}
 
 
       
-.best>div:hover {opacity: 0.3;}
+/* .best>div:hover {opacity: 0.3;}
 .outer>div:hover {opacity: 0.3;}
 .acc>div:hover {opacity: 0.3;}
-.mans>div:hover {opacity: 0.3;}
+.mans>div:hover {opacity: 0.3;} */
 
 /*--------------- best ----------------*/
 
